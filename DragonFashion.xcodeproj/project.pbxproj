@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9F0AB0DC1D183AED00971E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AB0DB1D183AED00971E89 /* AppDelegate.swift */; };
-		9F0AB0DE1D183AED00971E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AB0DD1D183AED00971E89 /* ViewController.swift */; };
 		9F0AB0E11D183AED00971E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AB0DF1D183AED00971E89 /* Main.storyboard */; };
 		9F0AB0E31D183AED00971E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AB0E21D183AED00971E89 /* Assets.xcassets */; };
 		9F0AB0E61D183AED00971E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AB0E41D183AED00971E89 /* LaunchScreen.storyboard */; };
+		9F0AB0F01D183B7100971E89 /* DragonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AB0EF1D183B7100971E89 /* DragonViewController.swift */; };
+		9F0AB0F21D183E7F00971E89 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AB0F11D183E7F00971E89 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F0AB0D81D183AED00971E89 /* DragonFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0AB0DB1D183AED00971E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F0AB0DD1D183AED00971E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F0AB0E01D183AED00971E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F0AB0E21D183AED00971E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0AB0E51D183AED00971E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F0AB0E71D183AED00971E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0AB0EF1D183B7100971E89 /* DragonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragonViewController.swift; sourceTree = "<group>"; };
+		9F0AB0F11D183E7F00971E89 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		9F0AB0CF1D183AED00971E89 = {
 			isa = PBXGroup;
 			children = (
+				9F0AB0EF1D183B7100971E89 /* DragonViewController.swift */,
 				9F0AB0DA1D183AED00971E89 /* DragonFashion */,
 				9F0AB0D91D183AED00971E89 /* Products */,
 			);
@@ -55,8 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				9F0AB0DB1D183AED00971E89 /* AppDelegate.swift */,
-				9F0AB0DD1D183AED00971E89 /* ViewController.swift */,
 				9F0AB0DF1D183AED00971E89 /* Main.storyboard */,
+				9F0AB0F11D183E7F00971E89 /* DetailViewController.swift */,
 				9F0AB0E21D183AED00971E89 /* Assets.xcassets */,
 				9F0AB0E41D183AED00971E89 /* LaunchScreen.storyboard */,
 				9F0AB0E71D183AED00971E89 /* Info.plist */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0AB0DE1D183AED00971E89 /* ViewController.swift in Sources */,
+				9F0AB0F21D183E7F00971E89 /* DetailViewController.swift in Sources */,
 				9F0AB0DC1D183AED00971E89 /* AppDelegate.swift in Sources */,
+				9F0AB0F01D183B7100971E89 /* DragonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
